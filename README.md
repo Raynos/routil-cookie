@@ -1,4 +1,5 @@
-# Routil-cookie
+# Routil-cookie 
+[![build status][1]][2]
 
 Cookie manipulation on req and res
 
@@ -14,3 +15,6 @@ Cookie manipulation on req and res
 
         setCookie(res, name, value, options)
     })
+
+  [1]: https://secure.travis-ci.org/Raynos/routil-cookie.png
+  [2]: http://travis-ci.org/Raynos/routil-cookie
