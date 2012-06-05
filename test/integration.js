@@ -32,7 +32,8 @@ describe("Integration tests", function () {
     before(function (done) {
         server = http.createServer(function (req, res) {
             handlers[req.url](req, res)
-        }).listen(3000, function () { done() })
+        })
+        server.listen(3000, function () { done() })
     })
 
     it("should set a cookie", function (done) {
