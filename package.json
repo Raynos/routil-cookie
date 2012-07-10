@@ -20,11 +20,11 @@
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
-    "cookie": "0.0.2",
-    "request": "~2.9.202"
+    "cookie": "0.0.2"
   },
   "devDependencies": {
     "mocha": "1.1.0",
+    "request": "~2.9.202",
     "sinon": "git://github.com/cjohansen/Sinon.JS.git"
   },
   "licenses": [
